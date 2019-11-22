@@ -56,6 +56,7 @@ class CatsContainer extends Component {
         return cat.id === id ? updatedCat : cat
       })
     }));
+    this.props.history.push(`/cats/${id}`)
   }
 
   setEdit = (catData) => {
