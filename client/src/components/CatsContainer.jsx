@@ -53,7 +53,7 @@ class CatsContainer extends Component {
     const updatedCat = await putCat(id, this.state.formData);
     this.setState(prevState => ({
       cats: prevState.cats.map(cat => {
-        return cat.id === id ? updatedCat : cat
+        return cat.id === parseInt(id) ? updatedCat : cat
       })
     }));
     this.props.history.push(`/cats/${id}`)
