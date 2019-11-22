@@ -26,6 +26,10 @@ Let's start off by creating models for our two resources:
 Both the "Dog" and "Cat" resource should have `name`, `breed` and `img_url`. All of which are strings.
 
 > When we pass columns to the model generation, rails will also make migrations for us. Don't forget to migrate them with `rails db:migrate`
+ 
+### Seed
+
+In our `/db/seeds.rb` file, we will find two arrays of pet data. Let's go ahead create them in the database. After we're done with the `seeds.rb` file, let's run `rails db:seed`
 
 ### Controllers
 
