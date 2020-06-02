@@ -49,7 +49,7 @@ Add all of our routes for both "Cats" and "Dogs".
 
 ### CORS
 
-In order to use our React frontend, you will need to configure CORS on the backend. refer back to the [cors setup](https://git.generalassemb.ly/sei-nyc-mandalorians/cors-setup) lesson if you need to.
+In order to use our React frontend, you will need to configure CORS on the backend. refer back to the [cors setup](https://git.generalassemb.ly/sei-nyc-apollo/cors-setup) lesson if you need to.
 
 ### Frontend BONUS!!!
 
