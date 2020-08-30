@@ -53,6 +53,4 @@ In order to use our React frontend, you will need to configure CORS on the backe
 
 ### Frontend BONUS!!!
 
-There is already full CRUD for Cats. Let's add CRUD for Dogs as well.
-
-STYLE! This app is looking rough with no styling. Feel free to be creative with your styling. You can switch up the starter code if you would like. Style it any way you want to.
+There is already full CRUD for Cats. Let's add CRUD for Dogs as well. There are comments to help you out and also feel free reference the cats part of the app.
